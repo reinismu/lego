@@ -11,6 +11,7 @@ import (
 	"time"
 
 	"github.com/miekg/dns"
+	"github.com/reinismu/lego/v4/log"
 )
 
 const defaultResolvConf = "/etc/resolv.conf"
@@ -252,7 +253,9 @@ func createDNSMsg(fqdn string, rtype uint16, recursive bool) *dns.Msg {
 }
 
 func sendDNSQuery(m *dns.Msg, ns string) (*dns.Msg, error) {
+	log.Infof("nameserver: sendDNSQuery")
 	if ok, _ := strconv.ParseBool(os.Getenv("LEGO_TCP_DNS_QUERY")); ok {
+		log.Infof("nameserver: sendDNSQuery TCP")
 		tcp := &dns.Client{Net: "tcp", Timeout: dnsTimeout}
 		in, _, err := tcp.Exchange(m, ns)
 

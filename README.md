@@ -7,7 +7,7 @@
 
 Let's Encrypt client and ACME library written in Go.
 
-[![GoDoc](https://godoc.org/github.com/go-acme/lego?status.svg)](https://pkg.go.dev/mod/github.com/go-acme/lego/v4)
+[![GoDoc](https://godoc.org/github.com/reinismu/lego?status.svg)](https://pkg.go.dev/mod/github.com/reinismu/lego/v4)
 [![Build Status](https://github.com//go-acme/lego/workflows/Main/badge.svg?branch=master)](https://github.com//go-acme/lego/actions)
 [![Docker Pulls](https://img.shields.io/docker/pulls/goacme/lego.svg)](https://hub.docker.com/r/goacme/lego/)
 
@@ -80,4 +80,4 @@ Detailed documentation is available [here](https://go-acme.github.io/lego/dns).
 
 <!-- END DNS PROVIDERS LIST -->
 
-If your DNS provider is not supported, please open an [issue](https://github.com/go-acme/lego/issues/new?assignees=&labels=enhancement%2C+new-provider&template=new_dns_provider.md).
+If your DNS provider is not supported, please open an [issue](https://github.com/reinismu/lego/issues/new?assignees=&labels=enhancement%2C+new-provider&template=new_dns_provider.md).

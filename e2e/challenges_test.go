@@ -9,12 +9,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/go-acme/lego/v4/certificate"
-	"github.com/go-acme/lego/v4/challenge/http01"
-	"github.com/go-acme/lego/v4/challenge/tlsalpn01"
-	"github.com/go-acme/lego/v4/e2e/loader"
-	"github.com/go-acme/lego/v4/lego"
-	"github.com/go-acme/lego/v4/registration"
+	"github.com/reinismu/lego/v4/certificate"
+	"github.com/reinismu/lego/v4/challenge/http01"
+	"github.com/reinismu/lego/v4/challenge/tlsalpn01"
+	"github.com/reinismu/lego/v4/e2e/loader"
+	"github.com/reinismu/lego/v4/lego"
+	"github.com/reinismu/lego/v4/registration"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

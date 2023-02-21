@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
 	querystring "github.com/google/go-querystring/query"
+	"github.com/reinismu/lego/v4/challenge/dns01"
 )
 
 const apiURL = "https://api.nearlyfreespeech.net"

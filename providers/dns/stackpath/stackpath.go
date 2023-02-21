@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/log"
-	"github.com/go-acme/lego/v4/platform/config/env"
+	"github.com/reinismu/lego/v4/challenge/dns01"
+	"github.com/reinismu/lego/v4/log"
+	"github.com/reinismu/lego/v4/platform/config/env"
 	"golang.org/x/oauth2/clientcredentials"
 )
 

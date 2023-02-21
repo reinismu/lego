@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/go-acme/lego/v4/acme"
-	"github.com/go-acme/lego/v4/platform/tester"
 	"github.com/go-jose/go-jose/v3"
+	"github.com/reinismu/lego/v4/acme"
+	"github.com/reinismu/lego/v4/platform/tester"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-acme/lego/v4/challenge/http01"
 	"github.com/rainycape/memcache"
+	"github.com/reinismu/lego/v4/challenge/http01"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

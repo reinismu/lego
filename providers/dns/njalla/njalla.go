@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/njalla/internal"
 	"github.com/miekg/dns"
+	"github.com/reinismu/lego/v4/challenge/dns01"
+	"github.com/reinismu/lego/v4/platform/config/env"
+	"github.com/reinismu/lego/v4/providers/dns/njalla/internal"
 )
 
 // Environment variables names.

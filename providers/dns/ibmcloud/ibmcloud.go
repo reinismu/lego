@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/ibmcloud/internal"
+	"github.com/reinismu/lego/v4/challenge/dns01"
+	"github.com/reinismu/lego/v4/platform/config/env"
+	"github.com/reinismu/lego/v4/providers/dns/ibmcloud/internal"
 	"github.com/softlayer/softlayer-go/session"
 )
 

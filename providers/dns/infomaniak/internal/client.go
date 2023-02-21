@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/log"
+	"github.com/reinismu/lego/v4/challenge/dns01"
+	"github.com/reinismu/lego/v4/log"
 )
 
 // Client the Infomaniak client.

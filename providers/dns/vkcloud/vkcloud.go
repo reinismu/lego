@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/go-acme/lego/v4/challenge/dns01"
-	"github.com/go-acme/lego/v4/platform/config/env"
-	"github.com/go-acme/lego/v4/providers/dns/vkcloud/internal"
 	"github.com/gophercloud/gophercloud"
+	"github.com/reinismu/lego/v4/challenge/dns01"
+	"github.com/reinismu/lego/v4/platform/config/env"
+	"github.com/reinismu/lego/v4/providers/dns/vkcloud/internal"
 )
 
 const (
